@@ -19,12 +19,21 @@
 
     <div class="container">
 
-        <h1>TTC departure times</h1>
-
-        <button type="button" class="btn btn-default" onclick="getLocation()">Choose stop</button>
+        <div class="page-header">
+        <h1>TTC departure times <span class="glyphicon glyphicon-time"></span></h1>
         <br/>
-        <p id="error" class=\"text-danger\"></p>
-        <p id="stops"></p>
+        <h1><small>real time departures</small><h1>
+        </div>
+        <br/>
+        <div class="panel panel-info">
+            <div class="panel-heading">Choose stop from closest available:</div>
+            <div class="panel-body">
+                <button type="button" class="btn btn-default" onclick="getLocation()">Show stops</button>
+                <br/>
+                <p id="error" class=\"text-danger\"></p>
+                <p id="stops"></p>
+            </div>
+        </div>
     </div>
     <div id="maps"></div>
 
