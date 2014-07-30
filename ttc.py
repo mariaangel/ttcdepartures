@@ -6,9 +6,9 @@
 # ** date     30 July 2014
 # ** purpose  Retrieving live data on the
 #             current position of TTC vehicles 
-#			  closest to the current user to 
-#			  return approximate departure times
-#			  at a specific stop, based on data 
+#             closest to the current user to 
+#             return approximate departure times
+#             at a specific stop, based on data 
 #             from myttc.ca and Nextbus.com
 #
 # ************************************************
