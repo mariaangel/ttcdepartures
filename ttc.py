@@ -9,6 +9,7 @@ app = Flask(__name__)
 def welcome():
     return render_template('welcome.html')
 
+#return the TTC stops closest to the user
 @app.route('/getStops')
 def getStops():
     if 'lat' in request.args and 'lon' in request.args:
